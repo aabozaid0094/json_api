@@ -14,5 +14,8 @@
     "nodejs"
   ],
   "author": "Ahmed Abo Zaid",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
