@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.json({
         endpoints: [
             { method: 'GET', path: '/api/countries' },
-            { method: 'GET', path: '/api/countries?name=<name>' }
+            { method: 'GET', path: '/api/countries?name=egypt' }
         ]
     });
 });
